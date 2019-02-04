@@ -2,10 +2,13 @@
 # CentOS 7中安装Lua
 ## 1.CentOS7默认已经安装了5.1.4
 ①查看当前lua版本号：lua -v
+
 Lua 5.1.4  Copyright (C) 1994-2008 Lua.org, PUC-Rio
 
 ②查看lua和luac的位置：which lua luac
+
 /usr/bin/lua
+
 /usr/bin/luac
 
 ## 2.安装最新Lua版本（5.3.5）
