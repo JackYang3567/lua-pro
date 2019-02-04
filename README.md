@@ -37,7 +37,8 @@ cd doc && install -p -m 0644 lua.1 luac.1 /usr/local/man/man1
 
 可以看到，lua和luac被安装到了/usr/local/bin中
 
-④lua -v查看版本，发现还是旧的版本，那我们就将/usr/bin中的lua和luac删除，
+lua -v查看版本，发现还是旧的版本，那我们就将/usr/bin中的lua和luac删除，
+
 然后将/usr/local/bin中的lua和luac创建一个ln到/usr/bin中即可
 
 ②创建软链接
